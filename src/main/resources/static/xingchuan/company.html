@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星川资本 - 公司介绍</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/subpage.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="content main-wd flex-around">
+        <img src="./images/logo.png" alt="星川资本">
+        <ul class="nav flex-center">
+          <li><a href="index.html">首页</a></li>
+          <li><a class="nav-active" href="company.html">关于星川</a></li>
+          <li><a href="product.html">旗下产品</a></li>
+          <li><a href="news.html">新闻中心</a></li>
+          <li><a href="about.html">联系我们</a></li>
+        </ul>
+        <div class="login"><a href="login.html">登录 / 注册</a></div>
+        <div class="user" style="display: none;">欢迎, {{user}}</div>
+      </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+      <li><a href="index.html">首页</a></li>
+      <li><a class="xs-nav-active" href="company.html">关于星川</a></li>
+      <li><a href="product.html">旗下产品</a></li>
+      <li><a href="news.html">新闻中心</a></li>
+      <li><a href="about.html">联系我们</a></li>
+    </ul>
+  </header>
+  <main class="main sub-page">
+    <div class="banner">
+      <img src="./images/banner2.jpg" alt="banner1">
+    </div>
+    <div class="section">
+      <div class="container main-wd flex-between flex-top">
+        <div class="menu-nav">
+          <div class="menu-nav-title">关于星川</div>
+          <ul class="menu-nav-list">
+            <li><a href="">公司简介</a></li>
+            <li><a href="">发展历程</a></li>
+            <li><a href="">企业文化</a></li>
+            <li><a href="">公司办公环境</a></li>
+          </ul>
+        </div>
+        <div class="container-content">
+          <div class="titles">
+            <span class="tag">Company Profile</span>
+            <div class="ti">公司简介</div>
+          </div>
+          <p class="text">
+            武汉星川资本管理有限公司（以下简称“星川资本”）是经中国证券投资基金业协会核准成立集证券投资、股权投资和风险投资于一体的专业私募基金管理公司。星川资本与各大券商及金融机构拥有良好的合作关系及强大的客户群体。星川资本成立于2015年7月，位于武汉江汉区发展大道广发大厦28楼，拥有五星级的办公环境。自成立之日起，星川资本秉持为员工创造未来，为客户创造财富，为股东创造收益，为社会创造价值的使命不断前行。
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="footer-one">
+      <div class="main-wd">
+        <p>
+          <span>联系方式：</span>
+          <span>电话: 027-8570 0088, 8570 3388</span>
+        </p>
+        <p>
+          <span>工作地点：</span>
+          <span>武汉江汉区建设大道737号广发大厦28层</span>
+        </p>
+        <p>
+          <span>客服热线：</span>
+          <span>027-85700088</span>
+        </p>
+      </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+  </footer>
+  <div id="dialog">
+    <div id="contents"></div>
+  </div>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/loadhtml.js"></script>
+</body>
+</html>

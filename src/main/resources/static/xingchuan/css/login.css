@@ -1,0 +1,61 @@
+.container.login, .container.register {
+  max-width: 500px;
+  min-height: 400px;
+  background-color: #f4f5f3;
+  box-shadow: none; }
+  .container.login .title, .container.register .title {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  .container.login .row, .container.register .row {
+    position: relative;
+    margin: 1rem auto;
+    max-width: 360px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .container.login .row i, .container.register .row i {
+      font-size: 1.1rem;
+      left: 2rem;
+      position: absolute; }
+    .container.login .row input, .container.login .row button, .container.login .row a, .container.login .row select, .container.register .row input, .container.register .row button, .container.register .row a, .container.register .row select {
+      font-size: .8rem;
+      font-weight: 300;
+      margin: 5px;
+      height: 2.3rem;
+      line-height: 2.3rem;
+      border: none;
+      border-radius: 2rem;
+      padding: 0 10px;
+      flex: 3; }
+      .container.login .row input:focus, .container.login .row button:focus, .container.login .row a:focus, .container.login .row select:focus, .container.register .row input:focus, .container.register .row button:focus, .container.register .row a:focus, .container.register .row select:focus {
+        outline: 0; }
+    .container.login .row .button, .container.register .row .button {
+      border: 1px solid; }
+    .container.login .row select, .container.register .row select {
+      border: 1px solid #ccc; }
+    .container.login .row input, .container.register .row input {
+      padding-left: 3rem;
+      min-width: 100px;
+      background-color: #fff; }
+    .container.login .row button.login-btn, .container.login .row .send, .container.register .row button.login-btn, .container.register .row .send {
+      text-align: center;
+      border: 1px solid #990b12;
+      color: #fff;
+      background-color: #990b12;
+      cursor: pointer; }
+
+@media (max-width: 768px) {
+  .container.login, .container.register {
+    background-color: #fff; }
+    .container.login .title, .container.register .title {
+      margin-left: 22px;
+      text-align: left; }
+    .container.login .row, .container.register .row {
+      margin: .5rem; }
+      .container.login .row input, .container.login .row button, .container.login .row select, .container.register .row input, .container.register .row button, .container.register .row select {
+        border: 1px solid #ccc;
+        border-radius: 0; }
+      .container.login .row .button, .container.login .row .send, .container.register .row .button, .container.register .row .send {
+        border-radius: 0; } }
