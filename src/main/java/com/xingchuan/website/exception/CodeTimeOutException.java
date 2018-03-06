@@ -1,15 +1,14 @@
 package com.xingchuan.website.exception;
 
 /**
- * Created by pohoulong on 2018/1/16.
+ * Created by pohoulong on 2018/3/6.
  */
-public class ConnectionRefusedException extends RuntimeException {
-
+public class CodeTimeOutException extends RuntimeException {
     private Integer code;
 
     private String message;
 
-    public ConnectionRefusedException(Integer code, String message) {
+    public CodeTimeOutException(Integer code, String message) {
         super(message);
         this.code = code;
         this.message = message;

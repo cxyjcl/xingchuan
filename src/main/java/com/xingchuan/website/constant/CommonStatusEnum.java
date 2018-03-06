@@ -38,7 +38,13 @@ public enum CommonStatusEnum {
     /**
      * Code error common status enum.
      */
-    _CODE_ERROR(10007, "验证码错误");
+    _CODE_ERROR(10007, "验证码错误"),
+
+    _ALIYUN_MSG_ERROR(10008, "短信接口错误"),
+
+    _CODE_TIME_OUT_ERROR(10009, "短信验证码已过期"),
+
+    _CODE_EXIST(10010, "验证码技能还在冷却，请一分钟后再获取");
 
     private Integer code;
 

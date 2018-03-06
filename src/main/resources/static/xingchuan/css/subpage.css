@@ -4,6 +4,54 @@
 .wd-full {
   width: 100% !important; }
 
+#history .year {
+  margin-top: 55px; }
+  #history .year strong {
+    color: #424242;
+    font-size: 24px;
+    margin-bottom: 35px;
+    display: block; }
+  #history .year .month {
+    padding-left: 25px;
+    color: #b0b0b0;
+    position: relative;
+    padding-bottom: 40px;
+    border-left: 1px solid #e0e0e0;
+    margin-left: 62px; }
+    #history .year .month em {
+      font-style: normal;
+      width: 60px;
+      position: absolute;
+      margin-left: -72px;
+      top: -5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #history .year .month em i {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        margin-right: 8px;
+        background: #ff6700; }
+    #history .year .month .text {
+      margin-left: 42px;
+      margin-top: -22px;
+      padding-left: 30px;
+      font-weight: 300; }
+      #history .year .month .text p {
+        color: #757575;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+        padding-bottom: 10px;
+        text-indent: 0; }
+        #history .year .month .text p span {
+          display: inline-block;
+          width: 4em;
+          margin-right: 1em;
+          text-indent: 0; }
+
 .sub-page .section {
   padding: 35px 20px; }
 
@@ -23,7 +71,8 @@
       color: #4d4d4d;
       width: 100%;
       padding: 20px;
-      display: block; }
+      display: block;
+      cursor: pointer; }
       .sub-page .container .menu-nav-list a:hover {
         color: #990b12; }
   .sub-page .container .container-content {
@@ -50,6 +99,29 @@
           display: inline-block;
           vertical-align: middle;
           background-color: #990b12; }
+    .sub-page .container .container-content .news-contents {
+      margin-top: -1rem; }
+      .sub-page .container .container-content .news-contents .news-title {
+        margin: 1rem 0;
+        padding-bottom: 1rem;
+        text-align: center;
+        line-height: 2em;
+        border-bottom: 1px dotted #ccc; }
+      .sub-page .container .container-content .news-contents .contents {
+        margin: 1rem 0;
+        text-align: center; }
+        .sub-page .container .container-content .news-contents .contents p {
+          margin: .7rem 0;
+          text-align: left;
+          text-indent: 2em; }
+        .sub-page .container .container-content .news-contents .contents img {
+          margin: .7rem;
+          max-width: 100%; }
+    .sub-page .container .container-content .imglist img {
+      width: 45%;
+      margin: 2%; }
+      .sub-page .container .container-content .imglist img:hover {
+        transform: scale(1.05, 1.05); }
     .sub-page .container .container-content .news-list {
       min-width: auto; }
 

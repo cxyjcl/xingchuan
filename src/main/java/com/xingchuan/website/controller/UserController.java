@@ -6,10 +6,7 @@ import com.xingchuan.website.pojo.User;
 import com.xingchuan.website.exception.PasswordException;
 import com.xingchuan.website.message.Message;
 import com.xingchuan.website.service.UserService;
-import com.xingchuan.website.vo.LoginVo;
-import com.xingchuan.website.vo.RegisterVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
@@ -29,27 +26,17 @@ public class UserController {
     /**
      * Login message.
      *
-     * @param vo      the vo
      * @param result  the result
-     * @param session the session
      * @return the message
      * @throws PasswordException the password exception
      */
     @PostMapping("/login")
-    public Message login(@RequestBody @Valid LoginVo vo, BindingResult result, HttpSession session) throws PasswordException {
+    public Message login(@RequestBody @Valid User user, BindingResult result) throws PasswordException {
         if (result.hasErrors()) {
             ObjectError error = result.getFieldError();
             return Message.error(error.getDefaultMessage());
         }
-        String code = vo.getCode();
-        String generatorCode = session.getAttribute("generateCode").toString();
-        if (!code.equals(generatorCode)) {
-            return Message.error(CommonStatusEnum._CODE_ERROR.getCode(),
-                    CommonStatusEnum._CODE_ERROR.getContent());
-        }
-        User user = new User(vo.getLoginName(), vo.getPassword());
         Integer id = userService.confirm(user);
-        session.setAttribute("userId", id);
         return Message.success();
     }
 
@@ -62,18 +49,11 @@ public class UserController {
      * @return the message
      */
     @PostMapping("/register")
-    public Message register(@RequestBody @Valid RegisterVo vo, BindingResult result, HttpSession session) {
+    public Message register(@RequestBody @Valid User user, BindingResult result, HttpSession session) {
         if (result.hasErrors()) {
             ObjectError error = result.getFieldError();
             return Message.error(error.getDefaultMessage());
         }
-        String code = vo.getCode();
-        String generatorCode = session.getAttribute("generateCode").toString();
-        if (!code.equals(generatorCode)) {
-            return Message.error(CommonStatusEnum._CODE_ERROR.getCode(),
-                    CommonStatusEnum._CODE_ERROR.getContent());
-        }
-        User user = new User(vo.getLoginName(), vo.getPassword(), vo.getRealName());
         userService.insert(user);
         return Message.success();
     }
@@ -107,6 +87,5 @@ public class UserController {
         userService.update(user);
         return Message.success();
     }
-
 
 }

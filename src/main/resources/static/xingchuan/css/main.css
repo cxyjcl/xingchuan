@@ -12,6 +12,12 @@ header {
 footer {
   padding-bottom: 10px; }
 
+img {
+  border-radius: .35rem; }
+
+h3 {
+  font-size: 1.3rem; }
+
 #dialog {
   position: fixed;
   z-index: 9999;
@@ -115,6 +121,8 @@ footer {
   overflow: hidden; }
   .header .content {
     padding: 0px 10px; }
+    .header .content img {
+      width: 220px; }
   .header .nav a, .header .login a {
     min-width: 80px;
     text-align: center;
@@ -163,6 +171,9 @@ a.nav-active {
       padding: 40px 20px; }
     .main .section > div:nth-child(even) {
       background: whitesmoke; }
+    .main .section > div:last-of-type {
+      border-top: 1px solid #eee;
+      background: #fff; }
     .main .section .btn-more {
       margin: 30px auto;
       margin-bottom: -10px;
@@ -207,6 +218,7 @@ a.nav-active {
       min-width: 280px;
       max-width: 350px;
       border: 1px solid #eeeeee;
+      border-radius: .75rem;
       background-color: #fff;
       flex: 1; }
       .main .section .card .title {
@@ -222,7 +234,8 @@ a.nav-active {
         padding-top: 10px;
         font-size: 12px; }
       .main .section .card .button {
-        width: 100%; }
+        width: 100%;
+        border-radius: .25rem; }
     .main .section .company-pic img {
       width: 100%;
       height: 240px;
@@ -242,7 +255,6 @@ a.nav-active {
       padding: 20px; }
       .main .section .news-introduction img {
         width: 100%;
-        height: 200px;
         display: block;
         background-color: #eee; }
       .main .section .news-introduction h2, .main .section .news-introduction p, .main .section .news-introduction .small-text {
@@ -311,6 +323,17 @@ a.nav-active {
     .footer-list a:hover {
       color: #fff;
       border-color: #ccc; }
+
+.logolist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .logolist img {
+    max-width: 200px;
+    margin: 20px 10px; }
+    .logolist img:hover {
+      transform: scale(1.05, 1.05); }
 
 @media (max-width: 768px) {
   ul.nav {

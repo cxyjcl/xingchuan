@@ -2,6 +2,7 @@ package com.xingchuan.website.pojo;
 
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
+import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 
@@ -17,11 +18,15 @@ public class User extends BaseEntity {
     @GeneratedValue
     private Integer id;
 
+    @NotEmpty(message = "手机号不得为空")
     private String loginName;
 
+    @NotEmpty(message = "密码不得为空")
     private String password;
 
     private String realName;
+
+    private String production;
 
     public User() {
     }
@@ -73,6 +78,14 @@ public class User extends BaseEntity {
         this.realName = realName;
     }
 
+    public String getProduction() {
+        return production;
+    }
+
+    public void setProduction(String production) {
+        this.production = production;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -80,6 +93,7 @@ public class User extends BaseEntity {
                 ", loginName='" + loginName + '\'' +
                 ", password='" + password + '\'' +
                 ", realName='" + realName + '\'' +
+                ", producter='" + production + '\'' +
                 '}';
     }
 }

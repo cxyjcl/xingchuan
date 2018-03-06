@@ -46,28 +46,27 @@
         <div class="title">快速注册</div>
         <div class="row">
           <i class="iconfont icon-user-stroke"></i>
-          <input type="text" class="regist-name" id="regist-name" placeholder="投资者姓名">
+          <input type="text" class="regist-name" id="real_name" placeholder="投资者姓名">
         </div>
         <div class="row">
           <i class="iconfont icon-key"></i>
-          <input type="text" class="regist-pwd" id="regist-phone" placeholder="请输入密码">
+          <input type="text" class="regist-pwd" id="password" placeholder="请输入密码">
         </div>
         <div class="row">
           <i class="iconfont icon-key"></i>
-          <input type="text" class="regist-pwd-repeat" id="regist-id" placeholder="请再次输入密码">
+          <input type="text" class="regist-pwd-repeat" id="re_password" placeholder="请再次输入密码">
         </div>
         <div class="row">
           <i class="iconfont icon-phones"></i>
-          <input type="text" class="regist-phone" id="regist-id" placeholder="请输入手机号">
+          <input type="text" class="regist-phone" id="login_name" placeholder="请输入手机号">
         </div>
         <div class="row">
           <i class="iconfont icon-safe"></i>
-          <input type="text" class="regist-phone" id="regist-id" placeholder="短信验证码">
-          <a href="" class="send">点击发送</a>
+          <input type="text" class="regist-phone" id="code" placeholder="短信验证码">
+          <a href="#" id="code_btn" class="send">点击发送</a>
         </div>
         <div class="row">
-          <select>
-            <option value="持有产品">持有产品</option>
+          <select id="production">
             <option value="星川资本">星川资本</option>
             <option value="星川一号">星川一号</option>
             <option value="星川二号">星川二号</option>
@@ -75,7 +74,7 @@
           </select>
         </div>
         <div class="row" style="margin-top: 20px;">
-          <a href="" class="button">完成注册</a>
+          <a href="#" id="submit_btn" class="button">完成注册</a>
         </div>
       </div>
     </div>
@@ -104,5 +103,6 @@
   </div>
   <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/loadhtml.js"></script>
+  <script src="js/register.js"></script>
 </body>
 </html>
