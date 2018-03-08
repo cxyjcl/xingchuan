@@ -30,26 +30,24 @@ public class UserController {
      * @return the message
      * @throws PasswordException the password exception
      */
-    @PostMapping("/login")
+    @PostMapping("/user/login")
     public Message login(@RequestBody @Valid User user, BindingResult result) throws PasswordException {
         if (result.hasErrors()) {
             ObjectError error = result.getFieldError();
             return Message.error(error.getDefaultMessage());
         }
-        Integer id = userService.confirm(user);
-        return Message.success();
+        userService.confirm(user);
+        return Message.success(user.getLoginName());
     }
 
     /**
      * Register message.
      *
-     * @param vo      the vo
      * @param result  the result
-     * @param session the session
      * @return the message
      */
-    @PostMapping("/register")
-    public Message register(@RequestBody @Valid User user, BindingResult result, HttpSession session) {
+    @PostMapping("/user/register")
+    public Message register(@RequestBody @Valid User user, BindingResult result) {
         if (result.hasErrors()) {
             ObjectError error = result.getFieldError();
             return Message.error(error.getDefaultMessage());
@@ -88,4 +86,9 @@ public class UserController {
         return Message.success();
     }
 
+    @PostMapping("/exit")
+    public Message exit(HttpSession session){
+        session.removeAttribute("loginName");
+        return Message.success();
+    }
 }

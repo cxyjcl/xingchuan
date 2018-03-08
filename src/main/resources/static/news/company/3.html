@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星川资本 - 新闻中心</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+<header>
+  <div class="header">
+    <div class="content main-wd flex-around">
+      <img src="../../images/logo.png" alt="星川资本">
+      <ul class="nav flex-center">
+        <li><a href="../../index.html">首页</a></li>
+        <li><a href="../../company.html">关于星川</a></li>
+        <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+        <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+        <li><a href="../../about.html">联系我们</a></li>
+      </ul>
+      <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+      <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
+    </div>
+  </div>
+  <ul class="xs-nav flex-center pl-xs">
+    <li><a href="../../index.html">首页</a></li>
+    <li><a href="../../company.html">关于星川</a></li>
+    <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+    <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+    <li><a href="../../about.html">联系我们</a></li>
+  </ul>
+</header>
+<main class="main sub-page">
+  <div class="banner">
+    <img src="../../images/banner3.jpg" alt="banner1">
+  </div>
+  <div class="section">
+    <div class="container main-wd flex-between flex-top">
+      <div class="menu-nav">
+        <div class="menu-nav-title">新闻中心</div>
+        <ul class="menu-nav-list">
+          <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+          <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+        </ul>
+      </div>
+      <div class="container-content">
+        <div class="titles">
+          <span class="tag">News</span>
+          <div id="title" class="ti">公司新闻</div>
+        </div>
+        <div class="news-contents">
+          <h3 class="news-title">私募前十月平均收益略逊于公募</h3>
+          <div class="contents">
+            <p>根据金牛理财网和私募排排网数据，受创业板回调影响，主动股票型公募基金10月损失惨重，排名居前的两只基金10月跌幅均超10%。比较公募基金和私募基金平均收益，前十月，公募基金略胜一筹。主动股票型公募基金产品平均收益为14.76%，非结构化的股票型私募基金业绩为12.71%。</p>
+            <p>数据显示，前十月，在非结构化的股票型私募基金业绩排行榜上，创势翔1期稳坐8个月的冠军宝座被鸿逸投资的“鸿逸1号”取代。该产品前十月的业绩为103.97%，而创势翔1号收益率回落到100%以下，为99.74%。</p>
+            <p>位居前十名的其他8只产品依次为金河新价值成长一期、菁英时代成长1号、恒盈复利增长1号、聚富二号(泽龙投资)、尚雅11期、鼎萨1期、泽熙3期、尚诚资产的尚诚。这几只产品前十月业绩平均达71.84%。</p>
+            <p>在同期创业板综下跌7.38%的情况下，非结构化的股票型私募基金10月平均收益为-0.32%，其中鸿逸1号10月净值上涨17.30%。</p>
+            <p>鸿逸投资总经理兼投资总监 张云逸表示，四季度采取防守策略，但是目前仍然看好TMT中的电子信息、医药医疗中与养老概念相关的个股及消费行业。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer id="footer" class="footer">
+  <div class="footer-one">
+    <div class="main-wd">
+      <p>
+        <span>联系方式：</span>
+        <span>电话: 027-8570 0088, 8570 3388</span>
+      </p>
+      <p>
+        <span>工作地点：</span>
+        <span>武汉江汉区建设大道737号广发大厦28层</span>
+      </p>
+      <p>
+        <span>客服热线：</span>
+        <span>027-85700088</span>
+      </p>
+    </div>
+  </div>
+  <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+</footer>
+<div id="dialog">
+  <div id="contents"></div>
+</div>
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<script src="../../js/loadHtml.js"></script>
+</body>
+</html>

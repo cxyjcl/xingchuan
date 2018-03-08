@@ -1,47 +1,76 @@
-2018-03-06 18:12:48,417 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 8712 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 18:12:48,472 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 18:12:48,476 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 18:14:04,660 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 14924 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 18:14:04,678 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 18:14:04,679 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 18:14:53,011 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 14932 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 18:14:53,022 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 18:14:53,024 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 18:15:04,899 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 12.818 seconds (JVM running for 14.317)
-2018-03-06 19:16:38,830 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 14440 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:16:38,834 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:16:38,835 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:16:51,252 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 13.81 seconds (JVM running for 15.406)
-2018-03-06 19:22:29,027 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 13036 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:22:29,031 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:22:29,034 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:22:41,152 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 13.607 seconds (JVM running for 14.969)
-2018-03-06 19:27:28,964 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 9664 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:27:28,982 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:27:28,983 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:27:41,170 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 13.467 seconds (JVM running for 14.902)
-2018-03-06 19:31:28,556 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 5892 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:31:28,629 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:31:28,633 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:31:40,706 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 13.515 seconds (JVM running for 14.592)
-2018-03-06 19:34:12,852 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 10436 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:34:12,860 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:34:12,861 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:34:26,219 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 14.337 seconds (JVM running for 15.742)
-2018-03-06 19:38:40,201 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 15744 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:38:40,208 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:38:40,209 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:38:51,578 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 12.794 seconds (JVM running for 14.016)
-2018-03-06 19:40:16,455 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 14536 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:40:16,461 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:40:16,461 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:40:26,485 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 10.988 seconds (JVM running for 12.056)
-2018-03-06 19:43:40,164 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 3792 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:43:40,172 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:43:40,173 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:43:54,107 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 15.093 seconds (JVM running for 18.225)
-2018-03-06 19:48:45,247 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 7968 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
-2018-03-06 19:48:45,253 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
-2018-03-06 19:48:45,253 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2018-03-06 19:48:56,527 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 12.719 seconds (JVM running for 13.981)
-2018-03-06 19:50:32,389 INFO (SmsServiceImpl.java:38)- 短信接口发送的的数据:Code: OK Message: OK RequestId: A171D07D-60EB-4667-A15D-16C0EC7558E9 BizId:866008720337032394^0
+2018-03-07 10:59:32,274 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 12528 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 10:59:32,286 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 10:59:32,289 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 10:59:45,094 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 14.071 seconds (JVM running for 16.872)
+2018-03-07 11:01:49,913 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 3480 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 11:01:49,919 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 11:01:49,921 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 11:02:05,667 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 17.812 seconds (JVM running for 19.229)
+2018-03-07 11:12:18,058 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 104 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 11:12:18,065 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 11:12:18,065 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 11:12:31,153 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 14.78 seconds (JVM running for 16.156)
+2018-03-07 11:12:56,149 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:12:56,206 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:14:28,296 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 1140 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 11:14:28,303 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 11:14:28,325 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 11:14:41,730 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 15.069 seconds (JVM running for 16.848)
+2018-03-07 11:15:00,102 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:15:29,928 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:15:35,817 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:16:20,444 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:16:25,734 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:17:25,076 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:18:55,529 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:20:44,050 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 13260 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 11:20:44,057 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 11:20:44,058 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 11:20:58,677 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 16.474 seconds (JVM running for 18.413)
+2018-03-07 11:21:34,264 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:26:30,084 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 14000 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 11:26:30,090 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 11:26:30,090 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 11:26:43,008 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 15.128 seconds (JVM running for 16.928)
+2018-03-07 11:27:03,477 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 11:28:30,758 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 13360 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 11:28:30,761 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 11:28:30,762 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 11:28:45,925 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 16.624 seconds (JVM running for 18.782)
+2018-03-07 11:31:27,521 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 19:37:29,048 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 7744 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 19:37:29,053 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 19:37:29,054 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 19:37:41,020 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 14.02 seconds (JVM running for 16.027)
+2018-03-07 19:42:02,115 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 12740 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 19:42:02,134 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 19:42:02,134 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 19:42:16,897 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 17.265 seconds (JVM running for 19.417)
+2018-03-07 19:43:33,200 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 14152 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 19:43:33,207 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 19:43:33,208 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 19:43:46,379 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 14.786 seconds (JVM running for 16.402)
+2018-03-07 19:44:42,747 ERROR (UserHandler.java:30)- code:10006,message:用户名重复
+2018-03-07 20:04:34,807 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 4200 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 20:04:34,815 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 20:04:34,828 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 20:04:49,527 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 16.337 seconds (JVM running for 17.683)
+2018-03-07 20:05:07,244 ERROR (UserHandler.java:23)- code:10003,message:账号或密码错误
+2018-03-07 20:24:11,158 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 844 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 20:24:11,173 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 20:24:11,175 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 20:24:23,522 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 13.743 seconds (JVM running for 15.187)
+2018-03-07 20:30:08,529 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 7932 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 20:30:08,536 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 20:30:08,536 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 20:30:21,822 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 14.974 seconds (JVM running for 16.68)
+2018-03-07 20:36:27,155 ERROR (UserHandler.java:30)- code:10006,message:用户名重复
+2018-03-07 20:36:31,533 ERROR (UserHandler.java:30)- code:10006,message:用户名重复
+2018-03-07 20:37:27,066 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 11880 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 20:37:27,097 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 20:37:27,099 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 20:37:44,123 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 19.269 seconds (JVM running for 21.174)
+2018-03-07 20:41:55,126 INFO (StartupInfoLogger.java:48)- Starting WebsiteApplication on DESKTOP-AFF6TKL with PID 6380 (D:\xingchuan\target\classes started by pohoulong in D:\xingchuan)
+2018-03-07 20:41:55,148 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-03-07 20:41:55,149 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-03-07 20:42:09,234 INFO (StartupInfoLogger.java:57)- Started WebsiteApplication in 16.232 seconds (JVM running for 18.156)

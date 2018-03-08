@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星川资本 - 新闻中心</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="content main-wd flex-around">
+            <img src="../../images/logo.png" alt="星川资本">
+            <ul class="nav flex-center">
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="../../company.html">关于星川</a></li>
+                <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+                <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+                <li><a href="../../about.html">联系我们</a></li>
+            </ul>
+            <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+            <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#"
+                                                                                        onclick="logout()">注销</a></div>
+        </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+        <li><a href="../../index.html">首页</a></li>
+        <li><a href="../../company.html">关于星川</a></li>
+        <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+        <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+        <li><a href="../../about.html">联系我们</a></li>
+    </ul>
+</header>
+<main class="main sub-page">
+    <div class="banner">
+        <img src="../../images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+        <div class="container main-wd flex-between flex-top">
+            <div class="menu-nav">
+                <div class="menu-nav-title">新闻中心</div>
+                <ul class="menu-nav-list">
+                    <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+                    <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+                </ul>
+            </div>
+            <div class="container-content">
+                <div class="titles">
+                    <span class="tag">News</span>
+                    <div id="title" class="ti">公司新闻</div>
+                </div>
+                <div class="news-contents">
+                    <h3 class="news-title">星川资本开幕酒会暨法国名庄碧尚男爵红酒品鉴
+                    </h3>
+                    <div class="contents">
+                        <img src="../../images/news/5.jpg"/>
+                        <p>2016年9月2日，公司盛情邀请金融业界人士和机构参加星川资本开幕酒会暨法国名庄碧尚男爵红酒品鉴晚会。九州通医药集团股份有限公司董事总经理刘树林，钰龙集团董事长喻小平、总裁喻红桥，武汉大学经管学院EDP中心主任马文霞，湖北珞珈同欣产业联盟投资股份有限公司总裁史克毅等出席酒会。</p>
+                        <img src="../../images/news/6.jpg"/>
+                        <p>
+                            酒会上，公司诚挚答谢各位嘉宾的莅临，并邀请嘉宾品尝美食，举杯同庆，公司还特别邀请到法国安盛集团CMGC总经理Jerone Pilet先生和大家一起品鉴来自法国名庄碧尚男爵系列红酒。                        </p>
+                        <img src="../../images/news/7.jpg"/>
+                        <p>
+                            星川资本开幕酒会暨法国名庄碧尚男爵红酒品鉴晚会酒会完美落下帷幕。星川资本，是经中国证券投资基金业协会核准成立的集证券投资、股权投资和基金管理、资产管理于一体的专业私募基金管理公司。与各大券商、基金公司及金融机构保持着良好的合作关系，同时不断发展和壮大自己的客户群体，公司秉持为客户创造财富，为社会创造价值的使命而不断奋进!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer" class="footer">
+    <div class="footer-one">
+        <div class="main-wd">
+            <p>
+                <span>联系方式：</span>
+                <span>电话: 027-8570 0088, 8570 3388</span>
+            </p>
+            <p>
+                <span>工作地点：</span>
+                <span>武汉江汉区建设大道737号广发大厦28层</span>
+            </p>
+            <p>
+                <span>客服热线：</span>
+                <span>027-85700088</span>
+            </p>
+        </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+</footer>
+<div id="dialog">
+    <div id="contents"></div>
+</div>
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<script src="../../js/loadHtml.js"></script>
+</body>
+</html>

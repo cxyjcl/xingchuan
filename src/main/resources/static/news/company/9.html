@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星川资本 - 新闻中心</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="content main-wd flex-around">
+            <img src="../../images/logo.png" alt="星川资本">
+            <ul class="nav flex-center">
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="../../company.html">关于星川</a></li>
+                <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+                <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+                <li><a href="../../about.html">联系我们</a></li>
+            </ul>
+            <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+            <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#"
+                                                                                        onclick="logout()">注销</a></div>
+        </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+        <li><a href="../../index.html">首页</a></li>
+        <li><a href="../../company.html">关于星川</a></li>
+        <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+        <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+        <li><a href="../../about.html">联系我们</a></li>
+    </ul>
+</header>
+<main class="main sub-page">
+    <div class="banner">
+        <img src="../../images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+        <div class="container main-wd flex-between flex-top">
+            <div class="menu-nav">
+                <div class="menu-nav-title">新闻中心</div>
+                <ul class="menu-nav-list">
+                    <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+                    <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+                </ul>
+            </div>
+            <div class="container-content">
+                <div class="titles">
+                    <span class="tag">News</span>
+                    <div id="title" class="ti">公司新闻</div>
+                </div>
+                <div class="news-contents">
+                    <h3 class="news-title">星川资本：与珞珈同欣签署《战略合作协议》
+                    </h3>
+                    <div class="contents">
+                        <p>2016年9月2日下午，公司与湖北珞珈同欣产业联盟投资股份有限公司（以下简称“珞珈同欣”）签署了《战略合作协议》。
+                        </p>
+                        <img src="../../images/news/3.jpg"/>
+                        <p>
+                            此次签署协议旨在通过本次合作与珞珈同欣建立长期战略合作关系，合作内容主要体现在三个方面：投资领域合作，双方结合自身的优势和特点，在债权、股权和证券投资等方面进行深入合作，拓宽彼此的业务渠道；融资渠道合作，甲乙双方遵循“互惠互利、平等诚信”原则，以建立长期、战略性的合作关系为目的来促进和发展双方融资渠道、融资项目和优质标的共同发展；构建甲乙双方交流平台，形成良好的人员交流、信息互通和项目合作的互动机制，促使项目、资源和资金更有效率地在甲乙双方之间流通。
+                        </p>
+                        <img src="../../images/news/4.jpg"/>
+                        <p>
+                            签署仪式上，公司表示将认真落实战略合作协议，与珞珈同欣有关方面共同努力，把协议内容细化为一个个具体的合作项目，逐项研究推动，把双方合作做得更务实、更有成效。在金融业界人士的见证下，星川资本董事长洪昌明与珞珈同欣总裁史克毅先生代表双方公司签署协议。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer" class="footer">
+    <div class="footer-one">
+        <div class="main-wd">
+            <p>
+                <span>联系方式：</span>
+                <span>电话: 027-8570 0088, 8570 3388</span>
+            </p>
+            <p>
+                <span>工作地点：</span>
+                <span>武汉江汉区建设大道737号广发大厦28层</span>
+            </p>
+            <p>
+                <span>客服热线：</span>
+                <span>027-85700088</span>
+            </p>
+        </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+</footer>
+<div id="dialog">
+    <div id="contents"></div>
+</div>
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<script src="../../js/loadHtml.js"></script>
+</body>
+</html>

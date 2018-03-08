@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>星川资本 - 新闻中心</title>
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/subpage.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="content main-wd flex-around">
+        <img src="images/logo.png" alt="星川资本">
+        <ul class="nav flex-center">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="company.html">关于星川</a></li>
+          <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+          <li><a class="nav-active" href="news.html">新闻中心</a></li>
+          <li><a href="about.html">联系我们</a></li>
+        </ul>
+        <div class="login"><a href="login.html">登录 / 注册</a></div>
+        <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
+      </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="company.html">关于星川</a></li>
+      <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+      <li><a class="xs-nav-active" href="news.html">新闻中心</a></li>
+      <li><a href="about.html">联系我们</a></li>
+    </ul>
+  </header>
+  <main class="main sub-page">
+    <div class="banner">
+      <img src="images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+      <div class="container main-wd flex-between flex-top">
+        <div class="menu-nav">
+          <div class="menu-nav-title">新闻中心</div>
+          <ul class="menu-nav-list">
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="industry.html">行业新闻</a></li>
+          </ul>
+        </div>
+        <div class="container-content">
+          <div class="titles">
+            <span class="tag">News</span>
+            <div id="title" class="ti">公司新闻</div>
+          </div>
+          <div id="content" class="content">
+            <div id="companys_2">
+              <ul class="news-list wd-full">
+                <li>
+                  <a href="news/company/8.html">
+                    <div class="news-date"><span>07-21</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">私募投资基金管理人登记证明</h4>
+                      <span class="small-text">...</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/7.html">
+                    <div class="news-date"><span>05-21</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">武汉星川资本管理有限公司2016年度校园招聘简章</h4>
+                      <span class="small-text">◆ 公司介绍 武汉星川资本管理有限公司（以下简称星川资本），是经国家各级主管机关批准备案的创业投资、投资咨…
+</span>
+                      <span class="small-text">...</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/6.html">
+                    <div class="news-date"><span>05-21</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">2016年度校园招聘简章</h4>
+                      <span class="small-text">武汉星川资本管理有限公司 2016 年度校园招聘简章 ◆ 公司介绍 武汉星川资本管理有限公司（以下简称星川资本），…</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/5.html">
+                    <div class="news-date"><span>09-08</span><span>2015</span></div>
+                    <div class="news-content">
+                      <h4 class="title">中国未来最强大的武器：“资本思维”和“股权</h4>
+                      <span class="small-text">无论从哪个角度看，中国经济从未有过如此激荡的变化：市场经济走到了尽头，资本经济时代将彻底到来。而资本经…</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/4.html">
+                    <div class="news-date"><span>09-07</span><span>2015</span></div>
+                    <div class="news-content">
+                      <h4 class="title">私募前十月平均收益略逊于公募</h4>
+                      <span class="small-text">根据金牛理财网和私募排排网数据，受创业板回调影响，主动股票型公募基金10月损失惨重，排名居前的两只基金10月…
+</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <div class="w3-twothird">
+                <ul class="w3-pagination">
+                  <li><a href="news.html">«</a></li>
+                  <li><a href="news.html">1</a></li>
+                  <li><a class="w3-red" href="javascript:void(0)">2</a></li>
+                  <li><a href="news2.html">3</a></li>
+                  <li><a href="news2.html">»</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="footer-one">
+      <div class="main-wd">
+        <p>
+          <span>联系方式：</span>
+          <span>电话: 027-8570 0088, 8570 3388</span>
+        </p>
+        <p>
+          <span>工作地点：</span>
+          <span>武汉江汉区建设大道737号广发大厦28层</span>
+        </p>
+        <p>
+          <span>客服热线：</span>
+          <span>027-85700088</span>
+        </p>
+      </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+  </footer>
+  <div id="dialog">
+    <div id="contents"></div>
+  </div>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/loadHtml.js"></script>
+</body>
+</html>

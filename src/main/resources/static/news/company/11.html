@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星川资本 - 新闻中心</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="content main-wd flex-around">
+            <img src="../../images/logo.png" alt="星川资本">
+            <ul class="nav flex-center">
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="../../company.html">关于星川</a></li>
+                <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+                <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+                <li><a href="../../about.html">联系我们</a></li>
+            </ul>
+            <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+            <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#"
+                                                                                        onclick="logout()">注销</a></div>
+        </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+        <li><a href="../../index.html">首页</a></li>
+        <li><a href="../../company.html">关于星川</a></li>
+        <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+        <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+        <li><a href="../../about.html">联系我们</a></li>
+    </ul>
+</header>
+<main class="main sub-page">
+    <div class="banner">
+        <img src="../../images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+        <div class="container main-wd flex-between flex-top">
+            <div class="menu-nav">
+                <div class="menu-nav-title">新闻中心</div>
+                <ul class="menu-nav-list">
+                    <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+                    <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+                </ul>
+            </div>
+            <div class="container-content">
+                <div class="titles">
+                    <span class="tag">News</span>
+                    <div id="title" class="ti">公司新闻</div>
+                </div>
+                <div class="news-contents">
+                    <h3 class="news-title">麻城市副市长冯向亲临星川资本指导工作
+                    </h3>
+                    <div class="contents">
+                        <img src="../../images/news/8.jpg"/>
+                        <p>2016年10月20日，麻城市常务副市长冯向率城投公司董事长娄向阳一行莅临星川资本开展调研工作。星川合作伙伴北京银禾资本管理有限公司董事长周凯文加入此次三方研讨会。
+                        </p>
+                        <img src="../../images/news/9.jpg"/>
+                        <p>此次研讨，为扩大麻城产业基金规模，完成麻城多个PPP项目建设和投资，就“麻城市成立政府引导的产业基金”项目可持续性发展问题，三方达成一致意见，用发行企业债券及其他多种融资方式，促进项目的良性发展。</p>
+                        <img src="../../images/news/10.jpg"/>
+                        <p>
+                            会议上，讨论氛围融洽，银禾资本提出极具建设性的合作模式，冯向对项目和合作模式给予指导。
+                        </p>
+                        <img src="../../images/news/11.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer" class="footer">
+    <div class="footer-one">
+        <div class="main-wd">
+            <p>
+                <span>联系方式：</span>
+                <span>电话: 027-8570 0088, 8570 3388</span>
+            </p>
+            <p>
+                <span>工作地点：</span>
+                <span>武汉江汉区建设大道737号广发大厦28层</span>
+            </p>
+            <p>
+                <span>客服热线：</span>
+                <span>027-85700088</span>
+            </p>
+        </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+</footer>
+<div id="dialog">
+    <div id="contents"></div>
+</div>
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<script src="../../js/loadHtml.js"></script>
+</body>
+</html>

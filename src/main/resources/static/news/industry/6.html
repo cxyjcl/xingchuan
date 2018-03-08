@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星川资本 - 新闻中心</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="content main-wd flex-around">
+        <img src="../../images/logo.png" alt="星川资本">
+        <ul class="nav flex-center">
+          <li><a href="../../index.html">首页</a></li>
+          <li><a href="../../company.html">关于星川</a></li>
+          <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+          <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+          <li><a href="../../about.html">联系我们</a></li>
+        </ul>
+        <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+        <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
+      </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+      <li><a href="../../index.html">首页</a></li>
+      <li><a href="../../company.html">关于星川</a></li>
+      <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+      <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+      <li><a href="../../about.html">联系我们</a></li>
+    </ul>
+  </header>
+  <main class="main sub-page">
+    <div class="banner">
+      <img src="../../images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+      <div class="container main-wd flex-between flex-top">
+        <div class="menu-nav">
+          <div class="menu-nav-title">新闻中心</div>
+          <ul class="menu-nav-list">
+            <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+            <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+          </ul>
+        </div>
+        <div class="container-content">
+          <div class="titles">
+            <span class="tag">News</span>
+            <div id="title" class="ti">行业新闻</div>
+          </div>
+          <div class="news-contents">
+            <h3 class="news-title">关于发布《基金从业资格考试大纲（2016年度修订
+            </h3>
+            <div class="contents">
+              <p>为进一步完善基金从业资格考试体系,中国证券投资基金业协会将于2016年9月增设科目三《私募股权投资基金基础知识》考试，为此我会编制了科目三《私募股权投资基金（含创业投资基金）基础知识考试大纲（2016年度）》,并对科目一《基金法律法规、职业道德与业务规范考试大纲》和科目二《证券投资基金基础知识考试大纲》进行修订（详见附件），现予发布。</p>
+              <p> 考试大纲自2016年9月起开始实施。为便于广大考生备考，我会将于八月中旬发布科目三《私募股权投资基金（含创业投资基金）基础知识考试要点》。参加考试的人员通过科目一和科目二考试，或通过科目一和科目三考试成绩合格的，均可申请注册基金从业资格。</p>
+              <p> 特此通知。</p>
+              <p> 附件:</p>
+              <p><a href="http://www.amac.org.cn/cyrygl/kspt/cyryks/390871.shtml">1、《基金法律法规、职业道德与业务规范考试大纲（2016年度修订）》</a></p>
+              <p><a href="http://www.amac.org.cn/cyrygl/kspt/cyryks/390870.shtml">2、《证券投资基金基础知识考试大纲（2016年度修订）》</a></p>
+              <p><a href="http://www.amac.org.cn/cyrygl/kspt/cyryks/390869.shtml">3、《私募股权投资基金（含创业投资基金）基础知识考试大纲（2016年度）》</a></p>
+              <p style="text-align: right;padding-right:15px">中国证券投资基金业协会</p>
+              <p style="text-align: right;padding-right:15px">二○一六年七月十九日</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="footer-one">
+      <div class="main-wd">
+        <p>
+          <span>联系方式：</span>
+          <span>电话: 027-8570 0088, 8570 3388</span>
+        </p>
+        <p>
+          <span>工作地点：</span>
+          <span>武汉江汉区建设大道737号广发大厦28层</span>
+        </p>
+        <p>
+          <span>客服热线：</span>
+          <span>027-85700088</span>
+        </p>
+      </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+  </footer>
+  <div id="dialog">
+    <div id="contents"></div>
+  </div>
+  <script src="../../js/jquery-1.11.1.min.js"></script>
+  <script src="../../js/loadHtml.js"></script>
+</body>
+</html>

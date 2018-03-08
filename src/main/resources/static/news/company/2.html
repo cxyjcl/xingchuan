@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星川资本 - 新闻中心</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+<header>
+  <div class="header">
+    <div class="content main-wd flex-around">
+      <img src="../../images/logo.png" alt="星川资本">
+      <ul class="nav flex-center">
+        <li><a href="../../index.html">首页</a></li>
+        <li><a href="../../company.html">关于星川</a></li>
+        <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+        <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+        <li><a href="../../about.html">联系我们</a></li>
+      </ul>
+      <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+      <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
+    </div>
+  </div>
+  <ul class="xs-nav flex-center pl-xs">
+    <li><a href="../../index.html">首页</a></li>
+    <li><a href="../../company.html">关于星川</a></li>
+    <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+    <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+    <li><a href="../../about.html">联系我们</a></li>
+  </ul>
+</header>
+<main class="main sub-page">
+  <div class="banner">
+    <img src="../../images/banner3.jpg" alt="banner1">
+  </div>
+  <div class="section">
+    <div class="container main-wd flex-between flex-top">
+      <div class="menu-nav">
+        <div class="menu-nav-title">新闻中心</div>
+        <ul class="menu-nav-list">
+          <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+          <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+        </ul>
+      </div>
+      <div class="container-content">
+        <div class="titles">
+          <span class="tag">News</span>
+          <div id="title" class="ti">公司新闻</div>
+        </div>
+        <div class="news-contents">
+          <h3 class="news-title">三季度新增信托资产规模缩水</h3>
+          <div class="contents">
+            <p>昨日，中国信托业协会公布了三季度末信托公司主要业务数据。数据显示，截至三季度末，67家信托公司管理的信托资产规模为10.13万亿元，突破了10万亿元大关，再创历史新高。分析人士指出，预计今年全年信托资管规模仍能保持一定速度的增长，但在银行加入资管大战、基金和券商资管产品日益成熟的情况下，明年信托行业难言乐观。</p>
+            <p>信托业协会的数据显示，信托资产季度环比增速已连续三个季度下降，第三季度的增速为7.16%，而今年前两季度的增速分别达到16.86%和8.30%。此外，第三季度新增信托资产规模出现负增长。数据显示，三季度新增信托仅为1.31万亿元，与第二季度新增规模相比减少了0.19万亿元。</p>
+            <p>中国信托业协会专家理事周小明指出，自2012年下半年开始，“泛资产管理”政策日益削弱了信托行业的制度红利，加上金融自由化的改革取向和经济下行周期的开始，使私募融资市场呈现出需求递减、风险递增、竞争加剧的中长期趋势，由此也动摇了信托业私募融资信托经营模式的市场基础。这就是今年以来信托业增速明显减缓的根本原因。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer id="footer" class="footer">
+  <div class="footer-one">
+    <div class="main-wd">
+      <p>
+        <span>联系方式：</span>
+        <span>电话: 027-8570 0088, 8570 3388</span>
+      </p>
+      <p>
+        <span>工作地点：</span>
+        <span>武汉江汉区建设大道737号广发大厦28层</span>
+      </p>
+      <p>
+        <span>客服热线：</span>
+        <span>027-85700088</span>
+      </p>
+    </div>
+  </div>
+  <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+</footer>
+<div id="dialog">
+  <div id="contents"></div>
+</div>
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<script src="../../js/loadHtml.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星川资本 - 新闻中心</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="content main-wd flex-around">
+        <img src="../../images/logo.png" alt="星川资本">
+        <ul class="nav flex-center">
+          <li><a href="../../index.html">首页</a></li>
+          <li><a href="../../company.html">关于星川</a></li>
+          <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+          <li><a class="nav-active" href="../../news.html#companys">新闻中心</a></li>
+          <li><a href="../../about.html">联系我们</a></li>
+        </ul>
+        <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+        <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
+      </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+      <li><a href="../../index.html">首页</a></li>
+      <li><a href="../../company.html">关于星川</a></li>
+      <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+      <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+      <li><a href="../../about.html">联系我们</a></li>
+    </ul>
+  </header>
+  <main class="main sub-page">
+    <div class="banner">
+      <img src="../../images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+      <div class="container main-wd flex-between flex-top">
+        <div class="menu-nav">
+          <div class="menu-nav-title">新闻中心</div>
+          <ul class="menu-nav-list">
+            <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+            <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+          </ul>
+        </div>
+        <div class="container-content">
+          <div class="titles">
+            <span class="tag">News</span>
+            <div id="title" class="ti">公司新闻</div>
+          </div>
+          <div class="news-contents">
+            <h3 class="news-title">浮动收益信托挑战刚性兑付</h3>
+            <div class="contents">
+              <p>虽然早在2011年，平安信托就推出了一款完全浮动收益的“平安财富安城1号”房地产信托基金，但时至今日采用这种模式的产品依然不多。</p>
+              <p>过去几年，由于房地产市场火爆，使得一些追求高收益且风险承受能力较强的客户，不再安于10%左右的固定收益。为了满足这部分客户的需求，基金化房地产信托产品应运而生，浮动收益便是房地产信托基金化的产物。</p>
+              <p>浮动收益模式的出现，使得开发商、信托公司和投资者三方的角色发生了一定变化，从某种程度上可以视为一种进步。</p>
+              <p>首先，因为有机会参与项目开发的利润分配，原来作为平台的信托公司不再一味追求低风险低收益的银信合作业务、通道类业务，有了更大的动力积极主动管理项目及控制风险。其次，投资者原来只是资金的提供方，享受固定收益，浮动收益则使他们有机会享受到整个项目开发的收益。</p>
+              <p>信托行业在过去十年之所以得到快速发展，正是得益于“刚性兑付”文化。它的存在，创造了一个“零风险、高收益”的神话。不可否认的是，浮动收益模式，颠覆了投资者心目中根深蒂固的“刚性兑付”原则。浮动收益意味着投资者不仅无法获得固定收益，而且最终是否保本都不确定。很多大型的信托公司，在推介浮动收益产品时，会特别提示不保证赢利，也不保证投资者本金不受损失，有的甚至还特别提示风险较大。</p>
+              <p>启元财富产品经理范曜宇告诉证券时报记者，在实际销售中，固定收益产品依然是投资者的首选，即便有投资者选择“固定收益+浮动收益”模式的产品，他们看重的还是固定收益部分。就是说，即便出现浮动收益为零这样的情况，固定收益部分也可以接受，这往往是他们选择此类产品的底线。</p>
+              <p>好买基金也提醒投资者，审视这类产品时，建议看淡浮动收益部分。主要还是看固定收益和产品质量本身，包括产品结构中的抵押、质押、担保等风控措施，以及融资方经营盈利、资金实力及发行方的背景。毕竟这是保证产品能够兑付的基础，没有兑付，浮动收益部分无从谈起。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="footer-one">
+      <div class="main-wd">
+        <p>
+          <span>联系方式：</span>
+          <span>电话: 027-8570 0088, 8570 3388</span>
+        </p>
+        <p>
+          <span>工作地点：</span>
+          <span>武汉江汉区建设大道737号广发大厦28层</span>
+        </p>
+        <p>
+          <span>客服热线：</span>
+          <span>027-85700088</span>
+        </p>
+      </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+  </footer>
+  <div id="dialog">
+    <div id="contents"></div>
+  </div>
+  <script src="../../js/jquery-1.11.1.min.js"></script>
+  <script src="../../js/loadHtml.js"></script>
+</body>
+</html>

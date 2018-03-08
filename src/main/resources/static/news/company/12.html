@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星川资本 - 新闻中心</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/subpage.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="content main-wd flex-around">
+            <img src="../../images/logo.png" alt="星川资本">
+            <ul class="nav flex-center">
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="../../company.html">关于星川</a></li>
+                <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+                <li><a class="nav-active" href="../../news.html">新闻中心</a></li>
+                <li><a href="../../about.html">联系我们</a></li>
+            </ul>
+            <div class="login"><a href="../../login.html">登录 / 注册</a></div>
+            <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#"
+                                                                                        onclick="logout()">注销</a></div>
+        </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+        <li><a href="../../index.html">首页</a></li>
+        <li><a href="../../company.html">关于星川</a></li>
+        <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+        <li><a class="xs-nav-active" href="../../news.html">新闻中心</a></li>
+        <li><a href="../../about.html">联系我们</a></li>
+    </ul>
+</header>
+<main class="main sub-page">
+    <div class="banner">
+        <img src="../../images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+        <div class="container main-wd flex-between flex-top">
+            <div class="menu-nav">
+                <div class="menu-nav-title">新闻中心</div>
+                <ul class="menu-nav-list">
+                    <li><a tagname="companys" href="../../news.html">公司新闻</a></li>
+                    <li><a tagname="industry" href="../../industry.html">行业新闻</a></li>
+                </ul>
+            </div>
+            <div class="container-content">
+                <div class="titles">
+                    <span class="tag">News</span>
+                    <div id="title" class="ti">公司新闻</div>
+                </div>
+                <div class="news-contents">
+                    <h3 class="news-title">深圳某知名资本管理公司莅临我司开展业务交流
+                    </h3>
+                    <div class="contents">
+                        <p>2016年11月9日，深圳某知名资本管理公司董事长率高管团队一行5人莅临我司进行私募基金业务交流。我司董事长洪昌明，董事陈俊、赵磊，投资总监胡源、何凡，风控总监孙东出席交流座谈会。 </p>
+                        <img src="../../images/news/12.jpg"/>
+                        <p>我司全体员工对深圳高管团队一行的到来表示热烈欢迎。座谈开始，双方对各自公司情况进行了总体性介绍，深圳高管团队对我司的发展前景表示看好。 随后就公司的管理制度、业务开展以及人才引进等方面进行了探讨。 </p>
+                        <img src="../../images/news/13.jpg"/>
+                        <p>
+                            双方在大宗交易合规、风控、产品设计、业务发展方向等广泛领域进行了为期2天的深入交流。对我司在私募基金业务的纵深发展提出了极具建设性的意见，同时双方表达了继续合作，互惠互利，共同发展的美好愿景。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer" class="footer">
+    <div class="footer-one">
+        <div class="main-wd">
+            <p>
+                <span>联系方式：</span>
+                <span>电话: 027-8570 0088, 8570 3388</span>
+            </p>
+            <p>
+                <span>工作地点：</span>
+                <span>武汉江汉区建设大道737号广发大厦28层</span>
+            </p>
+            <p>
+                <span>客服热线：</span>
+                <span>027-85700088</span>
+            </p>
+        </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+</footer>
+<div id="dialog">
+    <div id="contents"></div>
+</div>
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<script src="../../js/loadHtml.js"></script>
+</body>
+</html>

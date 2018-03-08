@@ -6,12 +6,14 @@ import com.xingchuan.website.message.Message;
 import com.xingchuan.website.service.impl.SmsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by pohoulong on 2018/3/6.
  */
+@ControllerAdvice
 public class CodeHandler {
 
     private final static Logger logger = LoggerFactory.getLogger(SmsServiceImpl.class);

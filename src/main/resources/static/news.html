@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>星川资本 - 新闻中心</title>
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/subpage.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="content main-wd flex-around">
+        <img src="images/logo.png" alt="星川资本">
+        <ul class="nav flex-center">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="company.html">关于星川</a></li>
+          <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+          <li><a class="nav-active" href="news.html">新闻中心</a></li>
+          <li><a href="about.html">联系我们</a></li>
+        </ul>
+        <div class="login"><a href="login.html">登录 / 注册</a></div>
+        <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
+      </div>
+    </div>
+    <ul class="xs-nav flex-center pl-xs">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="company.html">关于星川</a></li>
+      <li><a href="#" onclick="checkUser()">旗下产品</a></li>
+      <li><a class="xs-nav-active" href="news.html">新闻中心</a></li>
+      <li><a href="about.html">联系我们</a></li>
+    </ul>
+  </header>
+  <main class="main sub-page">
+    <div class="banner">
+      <img src="images/banner3.jpg" alt="banner1">
+    </div>
+    <div class="section">
+      <div class="container main-wd flex-between flex-top">
+        <div class="menu-nav">
+          <div class="menu-nav-title">新闻中心</div>
+          <ul class="menu-nav-list">
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="industry.html">行业新闻</a></li>
+          </ul>
+        </div>
+        <div class="container-content">
+          <div class="titles">
+            <span class="tag">News</span>
+            <div id="title" class="ti">公司新闻</div>
+          </div>
+          <div id="content" class="content">
+            <div id="companys_1">
+              <ul class="news-list wd-full">
+                <li>
+                  <a href="news/company/13.html">
+                    <div class="news-date"><span>01-10</span><span>2017</span></div>
+                    <div class="news-content">
+                      <h4 class="title">星川资本年度总结大会暨2016年终盛宴</h4>
+                      <span class="small-text">2017年1月9日下午3点，公司召开了年度总结大会，对2016年的工作情况进行了全面总结。…</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/12.html">
+                    <div class="news-date"><span>11-14</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">深圳某知名资本管理公司莅临我司开展业务交流</h4>
+                      <span class="small-text">2016年11月9日，深圳某知名资本管理公司董事长率高管团队一行5人莅临我司进行私募基金业务交流。…</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/11.html">
+                    <div class="news-date"><span>11-09</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">麻城市副市长冯向亲临星川资本指导工作</h4>
+                      <span class="small-text">2016年10月20日，麻城市常务副市长冯向率城投公司董事长娄向阳一行莅临星川资本开展调研工作。星川合作伙伴北京银…</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/10.html">
+                    <div class="news-date"><span>11-08</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">星川资本开幕酒会暨法国名庄碧尚男爵红酒品鉴</h4>
+                      <span class="small-text">2016年9月2日，公司盛情邀请金融业界人士和机构参加星川资本开幕酒会暨法国名庄碧尚男爵红酒品鉴晚会。…
+</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="news/company/9.html">
+                    <div class="news-date"><span>07-21</span><span>2016</span></div>
+                    <div class="news-content">
+                      <h4 class="title">私募投资基金已备案</h4>
+                      <span class="small-text">...</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <div class="w3-twothird">
+                <ul class="w3-pagination">
+                  <li><a href="javascript:void(0)">«</a></li>
+                  <li><a class="w3-red" href="javascript:void(0)">1</a></li>
+                  <li><a href="news1.html">2</a></li>
+                  <li><a href="news2.html">3</a></li>
+                  <li><a href="news1.html">»</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="footer">
+    <div class="footer-one">
+      <div class="main-wd">
+        <p>
+          <span>联系方式：</span>
+          <span>电话: 027-8570 0088, 8570 3388</span>
+        </p>
+        <p>
+          <span>工作地点：</span>
+          <span>武汉江汉区建设大道737号广发大厦28层</span>
+        </p>
+        <p>
+          <span>客服热线：</span>
+          <span>027-85700088</span>
+        </p>
+      </div>
+    </div>
+    <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
+  </footer>
+  <div id="dialog">
+    <div id="contents"></div>
+  </div>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/loadHtml.js"></script>
+</body>
+</html>

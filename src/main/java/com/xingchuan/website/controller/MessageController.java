@@ -25,7 +25,6 @@ public class MessageController {
 
     @PostMapping("/send/{phone}/message")
     public Message sendMessage(@PathVariable("phone") String phone,HttpServletResponse response,HttpServletRequest request){
-        String code = service.sendMessage(phone);
         Cookie[] cookies=request.getCookies();//获取请求中的所有cookie
         if(null!=cookies) {
             for (Cookie cookie : cookies) {
@@ -35,8 +34,10 @@ public class MessageController {
                 }
             }
         }
-        Cookie cookie=new Cookie("code",code);
-        cookie.setMaxAge(60);
+        String code = service.sendMessage(phone);
+        Cookie cookie=new Cookie(phone,code);
+        cookie.setMaxAge(5*60);
+        cookie.setPath("/");
         response.addCookie(cookie);
         return Message.success(code);
     }
@@ -48,10 +49,11 @@ public class MessageController {
         Cookie[] cookies=request.getCookies();//获取请求中的所有cookie
         if(null!=cookies) {
             for (Cookie cookie : cookies) {
-                //输出cookie的标志(name)和值(value)
+//                输出cookie的标志(name)和值(value)
                 if(cookie.getName().equals(phone)){
                     String matcher = cookie.getValue();
                     service.matchCode(matcher,code);
+                    cookie.setMaxAge(-1);
                     return Message.success();
                 }
             }
