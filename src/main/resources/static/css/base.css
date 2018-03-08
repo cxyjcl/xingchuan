@@ -181,11 +181,11 @@ button, .button {
   -webkit-tap-highlight-color: transparent; }
   button:hover, .button:hover {
     color: #fff;
-    border-color: #990b12;
-    background-color: #990b12; }
+    border-color: #df001f;
+    background-color: #df001f; }
 
 a {
-  color: #990b12;
+  color: #df001f;
   text-decoration: none; }
 
 ul {

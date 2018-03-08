@@ -48,13 +48,13 @@ h3 {
       #dialog #contents .btn-group .button {
         width: 6rem; }
       #dialog #contents .btn-group button.button {
-        border: 1px solid #990b12;
+        border: 1px solid #df001f;
         cursor: pointer;
         color: #fff;
-        background-color: #990b12;
+        background-color: #df001f;
         margin-right: 20px; }
       #dialog #contents .btn-group a.button:hover {
-        color: #990b12;
+        color: #df001f;
         background-color: #fff; }
 
 #banner .dots {
@@ -110,10 +110,10 @@ h3 {
     color: #4d4d4d;
     display: block; }
     .xs-nav a:hover {
-      color: #990b12; }
+      color: #df001f; }
   .xs-nav .xs-nav-active {
     color: #fff;
-    background-color: #990b12; }
+    background-color: #df001f; }
 
 .header {
   height: 80px;
@@ -132,13 +132,13 @@ h3 {
     display: block; }
     .header .nav a:hover, .header .login a:hover {
       color: #fff;
-      background-color: #990b12; }
+      background-color: #df001f; }
   .header .login a {
     min-width: 90px;
-    color: #990b12; }
+    color: #df001f; }
     .header .login a:hover {
       text-decoration: underline;
-      color: #990b12;
+      color: #df001f;
       background: transparent; }
   .header .nav {
     width: 55%; }
@@ -148,7 +148,7 @@ h3 {
 
 a.nav-active {
   color: #fff !important;
-  background-color: #990b12; }
+  background-color: #df001f; }
 
 .main {
   position: relative;
@@ -188,10 +188,10 @@ a.nav-active {
       transition: background-color .5s ease-in-out; }
       .main .section .btn-more.radius a:hover {
         color: #fff;
-        background-color: #990b12; }
+        background-color: #df001f; }
     .main .section .button {
       margin-top: 10px;
-      color: #990b12; }
+      color: #df001f; }
       .main .section .button:hover {
         color: #fff; }
     .main .section .title, .main .section .subtitle {
@@ -202,7 +202,7 @@ a.nav-active {
       .main .section .title span, .main .section .subtitle span {
         margin: 0 auto;
         padding-bottom: .25rem;
-        border-bottom: 2px solid #990b12; }
+        border-bottom: 2px solid #df001f; }
     .main .section .subtitle {
       text-align: left; }
     .main .section .outline {
@@ -273,10 +273,10 @@ a.nav-active {
         text-align: right; }
       .main .section .news-date > span:first-of-type {
         font-size: 2rem;
-        color: #990b12; }
+        color: #df001f; }
       .main .section .news-date > span:last-of-type {
         font-size: 1rem;
-        color: #990b12; }
+        color: #df001f; }
     .main .section .news-content {
       margin-left: 1rem;
       width: calc(100% - 7.5rem);

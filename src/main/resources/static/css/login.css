@@ -41,9 +41,9 @@
       background-color: #fff; }
     .container.login .row button.login-btn, .container.login .row .send, .container.register .row button.login-btn, .container.register .row .send {
       text-align: center;
-      border: 1px solid #990b12;
+      border: 1px solid #df001f;
       color: #fff;
-      background-color: #990b12;
+      background-color: #df001f;
       cursor: pointer; }
 
 @media (max-width: 768px) {

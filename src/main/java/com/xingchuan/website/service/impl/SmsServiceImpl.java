@@ -18,7 +18,7 @@ import java.util.Random;
 @Service
 public class SmsServiceImpl implements SmsService {
 
-    static String code = "0123456789asdfghjklqwertyuiopzxcvbnmASDFGHJKLQWERTYUIOPZXCVBNM";
+    static String code = "0123456789";
     private final static Logger logger = LoggerFactory.getLogger(SmsServiceImpl.class);
 
     public static String createCode(int count) {
