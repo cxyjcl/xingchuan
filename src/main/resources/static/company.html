@@ -1,182 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>星川资本 - 公司介绍</title>
-  <link rel="stylesheet" href="css/normalize.css"/>
-  <link rel="stylesheet" href="css/base.css"/>
-  <link rel="stylesheet" href="css/main.css"/>
-  <link rel="stylesheet" href="css/subpage.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>星川资本 - 公司介绍</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/subpage.css"/>
 </head>
 <body>
-  <header>
+<header>
     <div class="header">
-      <div class="content main-wd flex-around">
-        <img src="images/logo.png" alt="星川资本">
-        <ul class="nav flex-center">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="company.html">关于星川</a></li>
-          <li><a href="#" onclick="checkUser()">旗下产品</a></li>
-          <li><a  href="news.html#companys">新闻中心</a></li>
-          <li><a href="about.html">联系我们</a></li>
-        </ul>
-        <div class="login"><a href="login.html">登录 / 注册</a></div>
-        <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
-      </div>
+        <div class="content main-wd flex-around">
+            <img src="images/logo.png" alt="星川资本">
+            <ul class="nav flex-center">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="company.html">关于星川</a></li>
+                <li><a href="product.html" >旗下产品</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="about.html">联系我们</a></li>
+            </ul>
+            <div class="login"><a href="login.html">登录 / 注册</a></div>
+            <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#"
+                                                                                        onclick="logout()">注销</a></div>
+        </div>
     </div>
     <ul class="xs-nav flex-center pl-xs">
-      <li><a href="index.html">首页</a></li>
-      <li><a class="xs-nav-active" href="company.html">关于星川</a></li>
-      <li><a href="#" onclick="checkUser()">旗下产品</a></li>
-      <li><a  href="news.html#companys">新闻中心</a></li>
-      <li><a href="about.html">联系我们</a></li>
+        <li><a href="index.html">首页</a></li>
+        <li><a class="xs-nav-active" href="company.html">关于星川</a></li>
+        <li><a href="product.html" >旗下产品</a></li>
+        <li><a href="news.html">新闻中心</a></li>
+        <li><a href="about.html">联系我们</a></li>
     </ul>
-  </header>
-  <main class="main sub-page">
+</header>
+<main class="main sub-page">
     <div class="banner">
-      <img src="images/banner2.jpg" alt="banner1">
+        <img src="images/banner2.jpg" alt="banner1">
     </div>
     <div class="section">
-      <div class="container main-wd flex-between flex-top">
-        <div class="menu-nav">
-          <div class="menu-nav-title">关于星川</div>
-          <!-- tagname as div#id -->
-          <ul class="menu-nav-list">
-            <li><a tagname="intro">公司简介</a></li>
-            <li><a tagname="history">发展历程</a></li>
-            <li><a tagname="env">公司办公环境</a></li>
-          </ul>
+        <div class="container main-wd flex-between flex-top">
+            <div class="menu-nav">
+                <div class="menu-nav-title">关于星川</div>
+                <!-- tagname as div#id -->
+                <ul class="menu-nav-list">
+                    <li><a tagname="intro">公司简介</a></li>
+                    <li><a tagname="history">发展历程</a></li>
+                    <li><a tagname="env">公司办公环境</a></li>
+                </ul>
+            </div>
+            <div class="container-content">
+                <div class="titles">
+                    <span class="tag">Company Profile</span>
+                    <div id="title" class="ti">公司简介</div>
+                </div>
+                <div id="content" class="content">
+                    <div id="intro">
+                        <p class="text">
+                            武汉星川资本管理有限公司（以下简称“星川资本”）是经中国证券投资基金业协会核准成立集证券投资、股权投资和创业投资于一体的专业私募基金管理公司。星川资本位于武汉江汉区建设大道地标性建筑广发银行大厦28楼，是一家专业从事证券市场投资的阳光私募机构，公司部门下设证券交易部、产品部、市场部、财务部、风控部、行政部；私募基金管理人登记编号：P1023408； </p>
+                        <p class="text">
+                            星川资本经营范围：资产管理、投资管理、投资咨询等；
+                        </p>
+                        <p class="text">
+                            公司团队成员均来自证券、银行以及上市公司的资深金融人才，平均从业经历10年以上，具备深厚的行业背景和风险管理能力，有丰富的资本市场运作经验。
+                        </p>
+                        <p class="text">
+                            星川资本具备多元化的投资渠道和专业的投资团队以及优质的资源储备，星川资本秉持着价值投资理念，肩负着为客户创造财富，为社会创造价值的使命，在未来资本市场上不断砥砺前行。
+                        </p>
+                    </div>
+                    <div id="history" style="display: none;">
+                        <div class="year">
+                            <strong>2018</strong>
+                            <div class="month">
+                                <em><span>1月</span><i class="dosh_1"></i></em>
+                                <div class="text">
+                                    <p><span>1月1日</span>武汉星川资本管理有限公司申请成为中国证券投资基金业协会观察会员。</p>
+                                    <p><span>1月23日</span>武汉星川资本管理有限公司发行星川价值成长2号私募投资基金、星川价值成长3号私募投资基金。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="year">
+                            <strong>2016</strong>
+                            <div class="month">
+                                <em><span>4月</span><i class="dosh_1"></i></em>
+                                <div class="text">
+                                    <p><span>4月10日</span>武汉星川资本管理有限公司发行第一支产品——星川投资一期证券投资基金。</p>
+                                </div>
+                            </div>
+                            <div class="month">
+                                <em><span>6月</span><i class="dosh_1"></i></em>
+                                <div class="text">
+                                    <p><span>6月23日</span>武汉星川资本管理有限公司资产管理规模过亿。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="year">
+                            <strong>2015</strong>
+                            <div class="month">
+                                <em><span>7月</span><i class="dosh_1"></i></em>
+                                <div class="text">
+                                    <p><span>7月3日</span>武汉星川资本管理有限公司正式成立。</p>
+                                </div>
+                            </div>
+                            <div class="month">
+                                <em><span>9月</span><i class="dosh_1"></i></em>
+                                <div class="text">
+                                    <p><span>9月18日</span>武汉星川资本管理有限公司取得中国证券投资基金业协会私募牌照。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="env" style="display: none;">
+                        <div class="imglist">
+                            <img src="images/news/708.jpg" alt="">
+                            <img src="images/news/712.jpg" alt="">
+                            <p style="width:  50%;float: left;text-align: center;">大会议室1</p>
+                            <p style="width:  50%;float: left;text-align: center;">交易室1</p>
+                            <img src="images/news/716.jpg" alt="">
+                            <img src="images/news/733.jpg" alt="">
+                            <p style="width:  50%;float: left;text-align: center;">交易室2</p>
+                            <p style="width:  50%;float: left;text-align: center;">交易室3</p>
+                            <img src="images/news/745.jpg" alt="">
+                            <img src="images/news/815.jpg" alt="">
+                            <p style="width:  50%;float: left;text-align: center;">大会议室2</p>
+                            <p style="width:  50%;float: left;text-align: center;">会客厅</p>
+                            <img src="images/news/758.jpg" alt="">
+                            <img src="images/news/808.jpg" alt="">
+                            <p style="width:  50%;float: left;text-align: center;">公司前台</p>
+                            <p style="width:  50%;float: left;text-align: center;">办公室</p>
+                            <img src="images/news/812.jpg" alt="">
+                            <img src="images/news/819.jpg" alt="">
+                            <p style="width:  50%;float: left;text-align: center;">小会议室</p>
+                            <p style="width:  50%;float: left;text-align: center;">会客厅2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container-content">
-          <div class="titles">
-            <span class="tag">Company Profile</span>
-            <div id="title" class="ti">公司简介</div>
-          </div>
-          <div id="content" class="content">
-            <div id="intro">
-              <p class="text">
-                武汉星川资本管理有限公司（以下简称“星川资本”）是经中国证券投资基金业协会核准成立集证券投资、股权投资和创业投资于一体的专业私募基金管理公司。星川资本位于武汉江汉区建设大道地标性建筑广发银行大厦28楼，是一家专业从事证券市场投资的阳光私募机构，公司部门下设证券交易部、产品部、市场部、财务部、风控部、行政部；私募基金管理人登记编号：P1023408；              </p>
-              <p class="text">
-                星川资本经营范围：资产管理、投资管理、投资咨询等；
-              </p>
-              <p class="text">
-                公司团队成员均来自证券、银行以及上市公司的资深金融人才，平均从业经历10年以上，具备深厚的行业背景和风险管理能力，有丰富的资本市场运作经验。
-              </p>
-              <p class="text">
-                星川资本具备多元化的投资渠道和专业的投资团队以及优质的资源储备，星川资本秉持着价值投资理念，肩负着为客户创造财富，为社会创造价值的使命，在未来资本市场上不断砥砺前行。
-              </p>
-            </div>
-            <div id="history" style="display: none;">
-              <div class="year">
-                <strong>2017</strong>
-                <div class="month">
-                  <em><span>12月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                      <p><span>12月19日</span>小米感谢老朋友，举办「2017 小米感恩季」活动，真金白银回馈 1.5 亿元</p>
-                      <p><span>12月14日</span>小米MIX 2被蓬皮杜艺术中心收藏</p>
-                      <p><span>12月7日</span>千元全面屏手机红米 5和红米5 Plus发布</p>
-                  </div>
-                </div>
-                <div class="month">
-                  <em><span>11月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                    <p><span>11月28日</span>小米成为全球最大智能硬件IoT平台</p>
-                    <p><span>11月14日</span>国际数据公司（IDC）最新调查数据显示，小米印度排名第一，国际化突飞猛进</p>
-                    <p><span>11月11日</span>小米天猫双11五连冠，支付金额破纪录</p>
-                    <p><span>11月5日</span>小米之家首家旗舰店开业，新零售开启新征程</p>
-                  </div>
-                </div>
-                <div class="month">
-                  <em><span>10月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                    <p><span>11月28日</span>小米成为全球最大智能硬件IoT平台</p>
-                    <p><span>11月14日</span>国际数据公司（IDC）最新调查数据显示，小米印度排名第一，国际化突飞猛进</p>
-                    <p><span>11月11日</span>小米天猫双11五连冠，支付金额破纪录</p>
-                    <p><span>11月5日</span>小米之家首家旗舰店开业，新零售开启新征程</p>
-                  </div>
-                </div>
-                <div class="month">
-                  <em><span>09月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                    <p><span>11月28日</span>小米成为全球最大智能硬件IoT平台</p>
-                    <p><span>11月14日</span>国际数据公司（IDC）最新调查数据显示，小米印度排名第一，国际化突飞猛进</p>
-                    <p><span>11月11日</span>小米天猫双11五连冠，支付金额破纪录</p>
-                    <p><span>11月5日</span>小米之家首家旗舰店开业，新零售开启新征程</p>
-                  </div>
-                </div>
-                <div class="month">
-                  <em><span>08月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                    <p><span>11月28日</span>小米成为全球最大智能硬件IoT平台</p>
-                    <p><span>11月14日</span>国际数据公司（IDC）最新调查数据显示，小米印度排名第一，国际化突飞猛进</p>
-                    <p><span>11月11日</span>小米天猫双11五连冠，支付金额破纪录</p>
-                    <p><span>11月5日</span>小米之家首家旗舰店开业，新零售开启新征程</p>
-                  </div>
-                </div>
-                <div class="month">
-                  <em><span>06月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                    <p><span>11月28日</span>小米成为全球最大智能硬件IoT平台</p>
-                    <p><span>11月14日</span>国际数据公司（IDC）最新调查数据显示，小米印度排名第一，国际化突飞猛进</p>
-                    <p><span>11月11日</span>小米天猫双11五连冠，支付金额破纪录</p>
-                    <p><span>11月5日</span>小米之家首家旗舰店开业，新零售开启新征程</p>
-                  </div>
-                </div>
-                <div class="month">
-                  <em><span>03月</span><i class="dosh_1"></i></em>
-                  <div class="text">
-                    <p><span>11月28日</span>小米成为全球最大智能硬件IoT平台</p>
-                    <p><span>11月14日</span>国际数据公司（IDC）最新调查数据显示，小米印度排名第一，国际化突飞猛进</p>
-                    <p><span>11月11日</span>小米天猫双11五连冠，支付金额破纪录</p>
-                    <p><span>11月5日</span>小米之家首家旗舰店开业，新零售开启新征程</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="env" style="display: none;">
-              <div class="imglist">
-                <img src="images/news/708.jpg" alt="">
-                <img src="images/news/712.jpg" alt="">
-                <img src="images/news/716.jpg" alt="">
-                <img src="images/news/733.jpg" alt="">
-                <img src="images/news/745.jpg" alt="">
-                <img src="images/news/815.jpg" alt="">
-                <img src="images/news/758.jpg" alt="">
-                <img src="images/news/808.jpg" alt="">
-                <img src="images/news/812.jpg" alt="">
-                <img src="images/news/819.jpg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </main>
-  <footer id="footer" class="footer">
+</main>
+<footer id="footer" class="footer">
     <div class="footer-one">
-      <div class="main-wd">
-        <p>
-          <span>联系方式：</span>
-          <span>电话: 027-8570 0088, 8570 3388</span>
-        </p>
-        <p>
-          <span>工作地点：</span>
-          <span>武汉江汉区建设大道737号广发大厦28层</span>
-        </p>
-        <p>
-          <span>客服热线：</span>
-          <span>027-85700088</span>
-        </p>
-      </div>
+        <div class="main-wd">
+            <p>
+                <span>联系方式：</span>
+                <span>电话: 027-8570 0088, 8570 3388</span>
+            </p>
+            <p>
+                <span>工作地点：</span>
+                <span>武汉江汉区建设大道737号广发大厦28层</span>
+            </p>
+            <p>
+                <span>客服热线：</span>
+                <span>027-85700088</span>
+            </p>
+        </div>
     </div>
     <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
-  </footer>
-  <div id="dialog">
+</footer>
+<div id="dialog">
     <div id="contents"></div>
-  </div>
-  <script src="js/jquery-1.11.1.min.js"></script>
-  <script src="js/loadHtml.js"></script>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/loadHtml.js"></script>
 </body>
 </html>

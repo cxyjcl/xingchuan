@@ -16,14 +16,6 @@ function logout() {
   alert("退出成功！")
   location.reload();
 }
-
-function checkUser(){
-  if (!window.localStorage.getItem('loginName')) {
-    window.location.href = '/login.html';
-  } else{
-    window.location.href = '/product.html'
-  }
-}
 function setContent(title, $el) {
   $('#title').text(title);
   $('#content').children().hide();

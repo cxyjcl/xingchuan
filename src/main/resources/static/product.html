@@ -1,277 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <title>星川资本 - 旗下产品</title>
-  <link rel="stylesheet" href="css/normalize.css"/>
-  <link rel="stylesheet" href="css/base.css"/>
-  <link rel="stylesheet" href="css/main.css"/>
-  <link rel="stylesheet" href="css/subpage.css"/>
-  <style>
-    .list-item {
-      margin: 20px;
-      margin-bottom: 25px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
-    }
-    .item-title {
-      padding: 10px 20px;
-      background-color: #f9f9f9;
-      display: flex;
-      align-items: center;
-    }
-    .title-left {
-      line-height: 1.5;
-      width: 0;
-      -webkit-box-flex: 1;
-      -webkit-flex: auto;
-      -ms-flex: auto;
-      flex: auto;
-    }
-    .title-tab {
-      font-size: 12px;
-      line-height: 16px;
-      position: relative;
-      display: inline-block;
-      height: 16px;
-      padding: 0 10px;
-      color: #fff;
-      background-color: #fb4755;
-    }
-    .title-tab:after {
-      position: absolute;
-      top: 0;
-      right: -16px;
-      content: '';
-      border-width: 16px;
-      border-style: solid;
-      border-color: transparent;
-      border-top-width: 0;
-      border-right-width: 0;
-      border-left-color: #fb4755;
-    }
-    .title-right {
-      padding-left: 20px;
-    }
-    .title-right a {
-      font-size: 14px;
-      display: block;
-      padding: 2px 25px;
-      color: #fb4755;
-      border: 1px solid #fb4755;
-      border-radius: 4px;
-      cursor: auto;
-      text-decoration: none;
-    }
-    .simu-site-ellipsis {
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-    }
-    .split-line {
-      border-bottom: 1px solid #eeeeee;
-    }
-    .data-box {
-      padding: 0 20px;
-    }
-    .data-row {
-      font-size: 14px;
-      padding: 15px 0;
-      color: #7d7d7d;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .data-row span {
-      color: #bfbfbf;
-    }
-    .data-row > div {
-      width: 33.3333%;
-      margin: 5px 0;
-      min-width: 210px;
-      white-space: nowrap;
-    }
-  </style>
-  <script>
-      if (!window.localStorage.getItem('loginName')) {
-          window.location.href = '/login.html';
-      }
-  </script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>星川资本 - 旗下产品</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/subpage.css"/>
+    <style>
+        .list-item {
+            margin: 20px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-title {
+            padding: 10px 20px;
+            background-color: #f9f9f9;
+            display: flex;
+            align-items: center;
+        }
+
+        .title-left {
+            line-height: 1.5;
+            width: 0;
+            -webkit-box-flex: 1;
+            -webkit-flex: auto;
+            -ms-flex: auto;
+            flex: auto;
+        }
+
+        .title-tab {
+            font-size: 12px;
+            line-height: 16px;
+            position: relative;
+            display: inline-block;
+            height: 16px;
+            padding: 0 10px;
+            color: #fff;
+            background-color: #fb4755;
+        }
+
+        .title-tab:after {
+            position: absolute;
+            top: 0;
+            right: -16px;
+            content: '';
+            border-width: 16px;
+            border-style: solid;
+            border-color: transparent;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-color: #fb4755;
+        }
+
+        .title-right {
+            padding-left: 20px;
+        }
+
+        .title-right a {
+            font-size: 14px;
+            display: block;
+            padding: 2px 25px;
+            color: #fb4755;
+            border: 1px solid #fb4755;
+            border-radius: 4px;
+            cursor: auto;
+            text-decoration: none;
+        }
+
+        .simu-site-ellipsis {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .split-line {
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .data-box {
+            padding: 0 20px;
+        }
+
+        .data-row {
+            font-size: 14px;
+            padding: 15px 0;
+            color: #7d7d7d;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .data-row span {
+            color: #bfbfbf;
+        }
+
+        .data-row > div {
+            width: 33.3333%;
+            margin: 5px 0;
+            min-width: 210px;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
-  <header>
+<header>
     <div class="header">
-      <div class="content main-wd flex-around">
-        <img src="images/logo.png" alt="星川资本">
-        <ul class="nav flex-center">
-          <li><a href="index.html">首页</a></li>
-          <li><a href="company.html">关于星川</a></li>
-          <li><a href="#" onclick="checkUser()">旗下产品</a></li>
-          <li><a href="news.html#companys">新闻中心</a></li>
-          <li><a href="about.html">联系我们</a></li>
-        </ul>
-        <div class="login"><a href="login.html">登录 / 注册</a></div>
-          <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#" onclick="logout()">注销</a></div>
-      </div>
+        <div class="content main-wd flex-around">
+            <img src="images/logo.png" alt="星川资本">
+            <ul class="nav flex-center">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="company.html">关于星川</a></li>
+                <li><a href="#">旗下产品</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+                <li><a href="about.html">联系我们</a></li>
+            </ul>
+            <div class="login"><a href="login.html">登录 / 注册</a></div>
+            <div class="user" style="display: none;">欢迎, <span id="loginName"></span><a href="#"
+                                                                                        onclick="logout()">注销</a></div>
+        </div>
     </div>
     <ul class="xs-nav flex-center pl-xs">
-      <li><a href="index.html">首页</a></li>
-      <li><a href="company.html">关于星川</a></li>
-      <li><a class="xs-nav-active" href="#" onclick="checkUser()">旗下产品</a></li>
-      <li><a  href="news.html#companys">新闻中心</a></li>
-      <li><a href="about.html">联系我们</a></li>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="company.html">关于星川</a></li>
+        <li><a class="xs-nav-active" href="#">旗下产品</a></li>
+        <li><a href="news.html">新闻中心</a></li>
+        <li><a href="about.html">联系我们</a></li>
     </ul>
-  </header>
-  <main class="main sub-page">
+</header>
+<main class="main sub-page">
     <div class="banner">
-      <img src="images/banner3.jpg" alt="banner1">
+        <img src="images/banner3.jpg" alt="banner1">
     </div>
     <div class="section">
-      <div class="container main-wd flex-between flex-top">
-        <div class="menu-nav">
-          <div class="menu-nav-title">旗下产品</div>
-          <ul class="menu-nav-list">
-            <li><a tagname="product-1">星川一号</a></li>
-            <li><a tagname="product-2">星川二号</a></li>
-            <li><a tagname="product-3">星川三号</a></li>
-          </ul>
+        <div class="container main-wd flex-between flex-top">
+            <div class="menu-nav">
+                <div class="menu-nav-title">旗下产品</div>
+                <ul class="menu-nav-list">
+                    <li><a tagname="product-1">星川一号</a></li>
+                    <li><a tagname="product-2">星川二号</a></li>
+                    <li><a tagname="product-3">星川三号</a></li>
+                </ul>
+            </div>
+            <div class="container-content">
+                <div class="titles">
+                    <span class="tag">Xing Chuan Product</span>
+                    <div id="title" class="ti">旗下产品</div>
+                </div>
+                <div id="content" class="content">
+                    <div id="product-1" class="list-item">
+                        <div class="item-title">
+                            <div class="title-left">
+                                <div class="simu-site-ellipsis">星川一号</div>
+                                <div class="title-tab ">存续中</div>
+                            </div>
+                            <div class="title-right">
+                                <a href="javascript:void(0)" class="productReservation" simu_data="3854523">产品预约</a>
+                            </div>
+                        </div>
+                        <div class="data-box">
+                            <div class="data-row">
+                                <div>当前份额净值：
+                                    <span class="color-disable">1000.009722万</span>
+                                </div>
+                                <div>累计份额收益：
+                                    <span class="color-disable">0</span>
+                                </div>
+                                <div>更新日期：
+                                    <span class="color-disable">2016-04-10</span>
+                                </div>
+                            </div>
+                            <div class="split-line"></div>
+                            <div class="data-row">
+                                <div>成立日期：2016-04-10
+                                </div>
+                                <div>认购起点：100万
+                                </div>
+                                <div>投资经理：桂杭
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="product-2" class="list-item">
+                        <div class="item-title">
+                            <div class="title-left">
+                                <div class="simu-site-ellipsis">星川二号</div>
+                                <div class="title-tab ">存续中</div>
+                            </div>
+                            <div class="title-right">
+                                <a href="javascript:void(0)" class="productReservation" simu_data="3854523">产品预约</a>
+                            </div>
+                        </div>
+                        <div class="data-box">
+                            <div class="data-row">
+                                <div>当前份额净值：
+                                    <span class="color-disable">1000.009722万</span>
+                                </div>
+                                <div>累计份额收益：
+                                    <span class="color-disable">0</span>
+                                </div>
+                                <div>更新日期：
+                                    <span class="color-disable">2016-04-10</span>
+                                </div>
+                            </div>
+                            <div class="split-line"></div>
+                            <div class="data-row">
+                                <div>成立日期：2016-04-10
+                                </div>
+                                <div>认购起点：100万
+                                </div>
+                                <div>投资经理：桂杭
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="product-3" class="list-item">
+                        <div class="item-title">
+                            <div class="title-left">
+                                <div class="simu-site-ellipsis">星川三号</div>
+                                <div class="title-tab ">存续中</div>
+                            </div>
+                            <div class="title-right">
+                                <a href="javascript:void(0)" class="productReservation" simu_data="3854523">产品预约</a>
+                            </div>
+                        </div>
+                        <div class="data-box">
+                            <div class="data-row">
+                                <div>当前份额净值：
+                                    <span class="color-disable">1000.009722万</span>
+                                </div>
+                                <div>累计份额收益：
+                                    <span class="color-disable">0</span>
+                                </div>
+                                <div>更新日期：
+                                    <span class="color-disable">2016-04-10</span>
+                                </div>
+                            </div>
+                            <div class="split-line"></div>
+                            <div class="data-row">
+                                <div>成立日期：2016-04-10
+                                </div>
+                                <div>认购起点：100万
+                                </div>
+                                <div>投资经理：桂杭
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container-content">
-          <div class="titles">
-            <span class="tag">Xing Chuan Product</span>
-            <div id="title" class="ti">旗下产品</div>
-          </div>
-          <div id="content" class="content">
-            <div id="product-1" class="list-item">
-              <div class="item-title">
-                <div class="title-left">
-                  <div class="simu-site-ellipsis">星川一号</div>
-                  <div class="title-tab ">存续中</div>
-                </div>
-                <div class="title-right">
-                  <a href="javascript:void(0)" class="productReservation" simu_data="3854523">产品预约</a>
-                </div>
-              </div>
-              <div class="data-box">
-                <div class="data-row">
-                  <div>当前份额净值：
-                    <span class="color-disable">1000.009722万</span>
-                  </div>
-                  <div>累计份额收益：
-                    <span class="color-disable">0</span>
-                  </div>
-                  <div>更新日期：
-                    <span class="color-disable">2016-04-10</span>
-                  </div>
-                </div>
-                <div class="split-line"></div>
-                <div class="data-row">
-                  <div>成立日期：2016-04-10
-                  </div>
-                  <div>认购起点：100万
-                  </div>
-                  <div>投资经理：桂杭
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="product-2" class="list-item">
-              <div class="item-title">
-                <div class="title-left">
-                  <div class="simu-site-ellipsis">星川二号</div>
-                  <div class="title-tab ">存续中</div>
-                </div>
-                <div class="title-right">
-                  <a href="javascript:void(0)" class="productReservation" simu_data="3854523">产品预约</a>
-                </div>
-              </div>
-              <div class="data-box">
-                <div class="data-row">
-                  <div>当前份额净值：
-                    <span class="color-disable">1000.009722万</span>
-                  </div>
-                  <div>累计份额收益：
-                    <span class="color-disable">0</span>
-                  </div>
-                  <div>更新日期：
-                    <span class="color-disable">2016-04-10</span>
-                  </div>
-                </div>
-                <div class="split-line"></div>
-                <div class="data-row">
-                  <div>成立日期：2016-04-10
-                  </div>
-                  <div>认购起点：100万
-                  </div>
-                  <div>投资经理：桂杭
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="product-3" class="list-item">
-              <div class="item-title">
-                <div class="title-left">
-                  <div class="simu-site-ellipsis">星川三号</div>
-                  <div class="title-tab ">存续中</div>
-                </div>
-                <div class="title-right">
-                  <a href="javascript:void(0)" class="productReservation" simu_data="3854523">产品预约</a>
-                </div>
-              </div>
-              <div class="data-box">
-                <div class="data-row">
-                  <div>当前份额净值：
-                    <span class="color-disable">1000.009722万</span>
-                  </div>
-                  <div>累计份额收益：
-                    <span class="color-disable">0</span>
-                  </div>
-                  <div>更新日期：
-                    <span class="color-disable">2016-04-10</span>
-                  </div>
-                </div>
-                <div class="split-line"></div>
-                <div class="data-row">
-                  <div>成立日期：2016-04-10
-                  </div>
-                  <div>认购起点：100万
-                  </div>
-                  <div>投资经理：桂杭
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </main>
-  <footer id="footer" class="footer">
+</main>
+<footer id="footer" class="footer">
     <div class="footer-one">
-      <div class="main-wd">
-        <p>
-          <span>联系方式：</span>
-          <span>电话: 027-8570 0088, 8570 3388</span>
-        </p>
-        <p>
-          <span>工作地点：</span>
-          <span>武汉江汉区建设大道737号广发大厦28层</span>
-        </p>
-        <p>
-          <span>客服热线：</span>
-          <span>027-85700088</span>
-        </p>
-      </div>
+        <div class="main-wd">
+            <p>
+                <span>联系方式：</span>
+                <span>电话: 027-8570 0088, 8570 3388</span>
+            </p>
+            <p>
+                <span>工作地点：</span>
+                <span>武汉江汉区建设大道737号广发大厦28层</span>
+            </p>
+            <p>
+                <span>客服热线：</span>
+                <span>027-85700088</span>
+            </p>
+        </div>
     </div>
     <div class="copy">Copyright © 2015 武汉星川资本管理有限公司 版权所有</div>
-  </footer>
-  <div id="dialog">
+</footer>
+<div id="dialog">
     <div id="contents"></div>
-  </div>
-  <script src="js/jquery-1.11.1.min.js"></script>
-  <script src="js/loadHtml.js"></script>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    if (!window.localStorage.getItem('loginName')) {
+        $(".color-disable").html("登录可见");
+    }
+</script>
+<script src="js/loadHtml.js"></script>
 </body>
 </html>
