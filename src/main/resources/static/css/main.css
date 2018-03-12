@@ -248,7 +248,7 @@ a.nav-active {
       min-width: 375px;
       flex: 1; }
     .main .section .small-text {
-      font-size: 12px;
+      font-size: 16px;
       color: #aaa;
       display: inline-block; }
     .main .section .news-introduction {
@@ -263,7 +263,7 @@ a.nav-active {
       background: whitesmoke; }
     .main .section .news-list a {
       width: 100%;
-      padding: 15px 5px;
+      padding: 12px 5px;
       display: block; }
     .main .section .news-date {
       width: 6em;
@@ -283,12 +283,15 @@ a.nav-active {
       display: inline-block; }
       .main .section .news-content .title {
         text-align: left;
-        margin-bottom: 5px; }
+        margin-bottom: -2px;
+        font-size: 24px; }
       .main .section .news-content .title, .main .section .news-content .small-text {
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        display: block; }
+        margin-top: 7px;
+        display: block;
+        margin-bottom: -4px;}
 
 .footer {
   font-size: 13px;
@@ -360,4 +363,15 @@ a.nav-active {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.icon-1{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom: 10px;
+}
+
+.icon-1 img{
+  width:30px!important;
 }

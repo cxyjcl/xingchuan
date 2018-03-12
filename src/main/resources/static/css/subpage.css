@@ -13,7 +13,6 @@
     display: block; }
   #history .year .month {
     padding-left: 25px;
-    color: #b0b0b0;
     position: relative;
     padding-bottom: 40px;
     border-left: 1px solid #e0e0e0;
@@ -40,7 +39,6 @@
       padding-left: 30px;
       font-weight: 300; }
       #history .year .month .text p {
-        color: #757575;
         font-size: 14px;
         line-height: 1.5;
         margin: 0;

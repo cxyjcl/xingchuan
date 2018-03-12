@@ -25,7 +25,7 @@ public class SmsServiceImpl implements SmsService {
         StringBuffer generateCode = new StringBuffer();
         for (int i = 0; i < count; i++) {
             Random random = new Random();
-            String tempCode = String.valueOf(code.charAt(random.nextInt(30))) + "";
+            String tempCode = String.valueOf(code.charAt(random.nextInt(10))) + "";
             generateCode.append(tempCode);
         }
         return new String(generateCode);
